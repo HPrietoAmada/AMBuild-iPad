@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LogCore" representedClassName="LogCore" syncable="YES" codeGenerationType="class">
+        <attribute name="controller" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MachineCore" representedClassName="MachineCore" syncable="YES" codeGenerationType="class">
+        <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="listPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="model" optional="YES" attributeType="String"/>
+        <attribute name="modelDesc" optional="YES" attributeType="String"/>
+        <attribute name="prospectId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="MachineOptionCore" representedClassName="MachineOptionCore" syncable="YES" codeGenerationType="class">
+        <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="listPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="model" optional="YES" attributeType="String"/>
+        <attribute name="modelId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="option" optional="YES" attributeType="String"/>
+        <attribute name="optionDesc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PriceToggleCore" representedClassName="PriceToggleCore" syncable="YES" codeGenerationType="class">
+        <attribute name="controller" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="show" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="view" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProspectCore" representedClassName="ProspectCore" syncable="YES" codeGenerationType="class">
+        <attribute name="companyName" optional="YES" attributeType="String"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String"/>
+        <attribute name="qrCode" optional="YES" attributeType="String"/>
+        <attribute name="salesnumber" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SalesmanCore" representedClassName="SalesmanCore" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="salesmanNumber" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="LogCore" positionX="-54" positionY="63" width="128" height="103"/>
+        <element name="MachineCore" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="MachineOptionCore" positionX="-54" positionY="18" width="128" height="148"/>
+        <element name="PriceToggleCore" positionX="-45" positionY="72" width="128" height="118"/>
+        <element name="ProspectCore" positionX="-54" positionY="45" width="128" height="163"/>
+        <element name="SalesmanCore" positionX="-54" positionY="63" width="128" height="103"/>
+    </elements>
+</model>
